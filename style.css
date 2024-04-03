@@ -1,0 +1,111 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Light gray background */
+  color: #444; /* Dark gray text color */
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #f3eded;
+  color: #e7e0e0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 a {
+  color: #601010;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+  /* Adjustments for specific sections */
+#about h2,
+#education h2,
+#skills h2,
+#projects h2,
+#contact h2,
+header h1,
+nav ul li a {
+  color: black; /* Change text color to black */
+}
+
+#about p,
+#education p,
+#skills p,
+#projects p,
+#contact p {
+  color: black; /* Change text color to black */
+}
+
+
+
+/* About section styles */
+#about {
+  background-color: #fff;
+  color: #444; /* Dark gray text color */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Education section styles */
+#education {
+  background-color: #fff;
+  color: #444; /* Dark gray text color */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Skills section styles */
+#skills {
+  background-color: #fff;
+  color: #444; /* Dark gray text color */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Projects section styles */
+#projects {
+  background-color: #f9f9f9;
+  color: #444; /* Dark gray text color */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #fff;
+  color: #444; /* Dark gray text color */
+  padding: 20px;
+}
